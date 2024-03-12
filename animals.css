@@ -1,0 +1,80 @@
+ /* Full credit to code.org for task */
+  
+p {
+  color: #926902;
+  font-weight: bold;
+  font-family: Aboreto, ranchers, sans-serif;
+   /* Changed the color, font, and font size of the text */
+}
+h1 {
+  color: green;
+  font-family: Papyrus;
+  font-size: 3em;
+  border-bottom: 7px double green;
+  border-top: 7px double green;
+} /* Changed the color, font, and font size of the text */
+#Fl img{
+  width: 300px;
+}
+img{
+  width: 250px;
+ border: 7px solid goldenrod;
+  border-style: double;
+  box-shadow: 0px 10px #743406;
+} /* Changed the border around images */
+body{
+  background-color: lightgoldenrodyellow;
+  background-image: linear-gradient(seashell,lightgoldenrodyellow); /*Makes background a gradient*/
+  background-repeat: no-repeat;
+}
+div{
+  display: block;
+}
+/*Changed position of all images / divs */
+#El{
+  position: absolute;
+  left: 30%;
+  transform: translateX(-50%);
+  margin-left: auto;
+  margin-right: auto;
+  top: 15%;
+  z-index: 1;
+}
+#Hi{
+  position: absolute;
+  left: 30%;
+  transform: translateX(-50%);
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  z-index: 1;
+}
+#Fl{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: auto;
+  margin-right: auto;
+  top: 20%;
+  z-index: 1;
+}
+#Pa{
+  position: absolute;
+  left: 70%;
+  transform: translateX(-50%);
+  margin-left: auto;
+  margin-right: auto;
+  top: 15%;
+  z-index: 1;
+}
+
+#Pe{
+  position: absolute;
+  left: 70%;
+  transform: translateX(-50%);
+  margin-left: auto;
+  margin-right: auto;
+  top: 45%;
+  z-index: 1;
+}
+
